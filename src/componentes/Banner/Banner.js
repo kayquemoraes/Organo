@@ -1,6 +1,6 @@
 import './Banner.css'
 
-function Banner(){
+export const Banner = () => {
     // JSX
     return(
 
@@ -10,5 +10,3 @@ function Banner(){
     )
 
 }
-
-export default Banner
