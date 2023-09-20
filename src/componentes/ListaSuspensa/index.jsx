@@ -1,7 +1,8 @@
 import './ListaSuspensa.css'
 import '../CampoTexto/CampoTexto.css'
+import '../Formulario'
 
-export const ListaSuspensa = (props) => {
+const ListaSuspensa = (props) => {
     return(
         <div className="campo-texto">
             <label>{props.label}</label>
@@ -11,3 +12,5 @@ export const ListaSuspensa = (props) => {
         </div>
     )
 }
+
+export default ListaSuspensa

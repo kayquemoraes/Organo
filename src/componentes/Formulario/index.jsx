@@ -3,7 +3,7 @@ import ListaSuspensa from '../ListaSuspensa'
 import Botao from '../Botao'
 import './Formulario.css'
 
-export const Formulario = (props) => {
+const Formulario = (props) => {
 
     const times = ["Programação", "Front-End", "Data Science", "DevOps", "UX e Design", "Mobile", "Inovação e Gestão"]
 
@@ -28,3 +28,5 @@ export const Formulario = (props) => {
     )
 
 }
+
+export default Formulario
