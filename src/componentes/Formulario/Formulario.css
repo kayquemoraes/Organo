@@ -16,23 +16,3 @@
     flex-direction: column;
     gap: 30px;
 }
-
-.formulario button {
-    margin-top: 40px;
-    width: 167px;
-    background-color: #6278F7;
-    border: none;
-    color: white;
-    border-radius: 10px;
-    padding: 28px;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    transition: 0.2s;
-}
-
-.formulario button:hover{
-    cursor: pointer;
-    background-color: rgb(63, 80, 176);
-}
-
