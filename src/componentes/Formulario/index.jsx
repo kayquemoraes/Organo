@@ -15,12 +15,18 @@ const Formulario = (props) => {
 
     const aoSalvar = (evento) => {
         evento.preventDefault();
-        console.log("Foi submetido",nome,cargo,imagem, time)
+        props.aoColaboradorCadastrado({
+            nome,
+            cargo,
+            imagem,
+            time
+        })
+        
     }
 
     return (
         <section className='formulario'>
-            <h2>{props.nome}</h2>
+            <h2>Preencha os dados para criar o card do colaborador.</h2>
             <form onSubmit={aoSalvar}>
                 <CampoTexto valor={nome} setValor={setNome} label="Nome" placeholder="Digite seu nome" type="text" obrigatorio={true} />
                 <CampoTexto valor={cargo} setValor={setCargo} label="Cargo" placeholder="Digite seu cargo" type="text" obrigatorio={true} />
